@@ -2,10 +2,11 @@ package com.sda;
 
 public class CarRace {
     public static void main(String[] args) {
+
         Thread car1 = new Thread(new Car("🚗 Makina e Kuqe"));
         Thread car2 = new Thread(new Car("🚙 Makina Blu"));
 
-        System.out.println("Gara fillon!");
+        System.out.println("Gara fillon!!");
         System.out.println("-------------------------------------");
 
         car1.start();
@@ -19,7 +20,7 @@ public class CarRace {
         }
 
         System.out.println("-------------------------------------");
-        System.out.println("Gara përfundoi!");
+        System.out.println("Gara përfundoi!!");
     }
 }
 
